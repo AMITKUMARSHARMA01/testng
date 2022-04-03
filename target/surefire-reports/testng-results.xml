@@ -2,7 +2,7 @@
 <testng-results skipped="0" failed="0" ignored="1" total="4" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="51297" started-at="2022-04-02T16:55:40Z" finished-at="2022-04-02T16:56:31Z">
+  <suite name="Suite" duration-ms="54130" started-at="2022-04-03T15:08:31Z" finished-at="2022-04-03T15:09:25Z">
     <groups>
       <group name="Sanity">
         <method signature="ClassTest.CreditCardTest()[pri:0, instance:testng.ClassTest@1d76aeea]" name="CreditCardTest" class="testng.ClassTest"/>
@@ -10,19 +10,19 @@
         <method signature="LoginTest.LoginTestcase1(java.lang.String, java.lang.String)[pri:0, instance:testng.LoginTest@78dd667e]" name="LoginTestcase1" class="testng.LoginTest"/>
       </group> <!-- Sanity -->
     </groups>
-    <test name="Test" duration-ms="51297" started-at="2022-04-02T16:55:40Z" finished-at="2022-04-02T16:56:31Z">
+    <test name="Test" duration-ms="54130" started-at="2022-04-03T15:08:31Z" finished-at="2022-04-03T15:09:25Z">
       <class name="testng.ClassTest">
-        <test-method status="PASS" signature="CreditCardTest()[pri:0, instance:testng.ClassTest@1d76aeea]" name="CreditCardTest" duration-ms="0" started-at="2022-04-02T16:55:40Z" finished-at="2022-04-02T16:55:40Z">
+        <test-method status="PASS" signature="CreditCardTest()[pri:0, instance:testng.ClassTest@1d76aeea]" name="CreditCardTest" duration-ms="2" started-at="2022-04-03T15:08:31Z" finished-at="2022-04-03T15:08:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreditCardTest -->
       </class> <!-- testng.ClassTest -->
       <class name="testng.LoginTest">
-        <test-method status="PASS" signature="Setup()[pri:0, instance:testng.LoginTest@78dd667e]" name="Setup" is-config="true" duration-ms="33588" started-at="2022-04-02T16:55:40Z" finished-at="2022-04-02T16:56:13Z">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:testng.LoginTest@78dd667e]" name="Setup" is-config="true" duration-ms="27379" started-at="2022-04-03T15:08:31Z" finished-at="2022-04-03T15:08:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method status="PASS" signature="LoginTestcase1(java.lang.String, java.lang.String)[pri:0, instance:testng.LoginTest@78dd667e]" name="LoginTestcase1" duration-ms="17608" started-at="2022-04-02T16:56:13Z" finished-at="2022-04-02T16:56:31Z">
+        <test-method status="PASS" signature="LoginTestcase1(java.lang.String, java.lang.String)[pri:0, instance:testng.LoginTest@78dd667e]" name="LoginTestcase1" duration-ms="26676" started-at="2022-04-03T15:08:58Z" finished-at="2022-04-03T15:09:25Z">
           <params>
             <param index="0">
               <value>
@@ -38,29 +38,29 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginTestcase1 -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:testng.LoginTest@78dd667e]" name="TearDown" is-config="true" duration-ms="73" started-at="2022-04-02T16:56:31Z" finished-at="2022-04-02T16:56:31Z">
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:testng.LoginTest@78dd667e]" name="TearDown" is-config="true" duration-ms="49" started-at="2022-04-03T15:09:25Z" finished-at="2022-04-03T15:09:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
       </class> <!-- testng.LoginTest -->
       <class name="testng.LoanTest">
-        <test-method status="PASS" signature="method3()[pri:0, instance:testng.LoanTest@add0edd]" name="method3" is-config="true" duration-ms="10" started-at="2022-04-02T16:55:40Z" finished-at="2022-04-02T16:55:40Z">
+        <test-method status="PASS" signature="method3()[pri:0, instance:testng.LoanTest@add0edd]" name="method3" is-config="true" duration-ms="8" started-at="2022-04-03T15:08:31Z" finished-at="2022-04-03T15:08:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- method3 -->
-        <test-method status="PASS" signature="HomeLoanTest()[pri:0, instance:testng.LoanTest@add0edd]" name="HomeLoanTest" duration-ms="0" started-at="2022-04-02T16:55:40Z" description="this test is for Home loan" finished-at="2022-04-02T16:55:40Z">
+        <test-method status="PASS" signature="HomeLoanTest()[pri:0, instance:testng.LoanTest@add0edd]" name="HomeLoanTest" duration-ms="1" started-at="2022-04-03T15:08:31Z" description="this test is for Home loan" finished-at="2022-04-03T15:08:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HomeLoanTest -->
-        <test-method status="PASS" signature="method1()[pri:0, instance:testng.LoanTest@add0edd]" name="method1" is-config="true" duration-ms="0" started-at="2022-04-02T16:55:40Z" finished-at="2022-04-02T16:55:40Z">
+        <test-method status="PASS" signature="method1()[pri:0, instance:testng.LoanTest@add0edd]" name="method1" is-config="true" duration-ms="0" started-at="2022-04-03T15:08:31Z" finished-at="2022-04-03T15:08:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- method1 -->
-        <test-method status="PASS" signature="method2()[pri:0, instance:testng.LoanTest@add0edd]" name="method2" is-config="true" duration-ms="0" started-at="2022-04-02T16:55:40Z" finished-at="2022-04-02T16:55:40Z">
+        <test-method status="PASS" signature="method2()[pri:0, instance:testng.LoanTest@add0edd]" name="method2" is-config="true" duration-ms="0" started-at="2022-04-03T15:08:31Z" finished-at="2022-04-03T15:08:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- method2 -->
-        <test-method status="PASS" signature="method4()[pri:0, instance:testng.LoanTest@add0edd]" name="method4" is-config="true" duration-ms="0" started-at="2022-04-02T16:56:31Z" finished-at="2022-04-02T16:56:31Z">
+        <test-method status="PASS" signature="method4()[pri:0, instance:testng.LoanTest@add0edd]" name="method4" is-config="true" duration-ms="1" started-at="2022-04-03T15:09:25Z" finished-at="2022-04-03T15:09:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- method4 -->
